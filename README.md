@@ -1,6 +1,6 @@
 [comment]: # "You may find the following markdown cheat sheet useful: https://www.markdownguide.org/cheat-sheet/. You may also consider using an online Markdown editor such as StackEdit."
 
-## Project title: _Test_
+## Project title: DataScrim
 
 ### Student name: Aswin Sajan
 
