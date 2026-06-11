@@ -34,7 +34,7 @@ Essential:
 
 Desirable:
 
-- Teachers can view and edit AI genrated questions before presenting.
+- Teachers can view and edit AI generated questions before presenting.
 - Configure difficulty levels.
 - Session history - allows teachers to use previously used dataset and quiz sets.
 - Question type selectors like read the chart , compare values , calculate from given data ,true/false etc.
