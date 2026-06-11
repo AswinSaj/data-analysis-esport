@@ -8,13 +8,13 @@
 
 ### Project description:
 
-The aim of the project is to built a fullstack webapp which help secondary school teachers to deliver mathematics lessons through esports data analysis. The webapp fetches the data from google derive using googles api and displays it as chart types, axes and color schemes without displaying the raw data to the end user. A dynamic quiz generating system using a free LLM model produces context-aware mathematical question based on maths topic, chart type and difficulty level. The teacher dashboard consists of session preperation and live management, and a frictionless student login via a session code. Support for 30+ participants users for realtime engagement tracking.The platform is designed for scalability and pedagogical effectiveness.
+The aim of the project is to built a fullstack webapp which help secondary school teachers to deliver mathematics lessons through esports data analysis. The webapp fetches the data from google drive using google's api and displays it as chart types, axes and color schemes without displaying the raw data to the end user. A dynamic quiz generating system using a free LLM model produces context-aware mathematical question based on maths topic, chart type and difficulty level. The teacher dashboard consists of session preperation and live management, and a frictionless student login via a session code. Support for 30+ participants users for realtime engagement tracking.The platform is designed for scalability and pedagogical effectiveness.
 
 ### List of requirements (objectives):
 
 [comment]: # "You can add as many additional bullet points as necessary by adding an additional hyphon symbol '-' at the end of each list"
 
-Essential:
+Technologies used
 
 - Next.Js - handles UI, routing and API endpoints.
 - Vercel - Cloud deployment.
@@ -23,12 +23,21 @@ Essential:
 - Railway/PythonAnywhere - deployment for python microservices.
 - Supabase - Postgres db, Google Oauth , realtime subscriptions.
 
+Essential:
+
+- Fetching esports dataset from Google Drive using API without exposing raw data.
+- Visualisation builder for teachers.
+  -Role-based Interfaces - Teacher dashboard and student interface.
+- Quiz generation (using LLMs).
+- Support for 30+ cocurrent student users.
+- Authentication for teachers.
+
 Desirable:
 
-- [Desirable requirement 1]
-- [Desirable requirement 2]
-- [Desirable requirement 3]
-- [Desirable requirement *n*]
+- Teachers can view and edit AI generated questions before presenting.
+- Configure difficulty levels.
+- Session history - allows teachers to use previously used dataset and quiz sets.
+- Question type selectors like read the chart , compare values , calculate from given data ,true/false etc.
 
 Optional:
 
